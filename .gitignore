@@ -33,7 +33,6 @@ build/
 *.min.js
 *.min.css
 
-# Documentation files (exclude from GitHub, keep locally)
-DEPLOYMENT_GUIDE.md
-VISUAL_GUIDE.md
-ANALYTICS.md
+# Documentation files (exclude ALL .md files except README.md)
+*.md
+!README.md

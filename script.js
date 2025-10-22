@@ -153,7 +153,9 @@ scrollTopBtn.addEventListener("click", () => {
   });
 });
 
-// Parallax effect for hero section (optional enhancement)
+// Parallax effect DISABLED - caused layout issues
+// Uncomment below if you want to enable parallax (may cause content overlap)
+/*
 window.addEventListener("scroll", () => {
   const scrolled = window.pageYOffset;
   const hero = document.getElementById("home");
@@ -161,5 +163,6 @@ window.addEventListener("scroll", () => {
     hero.style.transform = `translateY(${scrolled * 0.5}px)`;
   }
 });
+*/
 
 console.log("Portfolio website loaded successfully! 🚀");
