@@ -32,3 +32,8 @@ dist/
 build/
 *.min.js
 *.min.css
+
+# Documentation files (exclude from GitHub, keep locally)
+DEPLOYMENT_GUIDE.md
+VISUAL_GUIDE.md
+ANALYTICS.md

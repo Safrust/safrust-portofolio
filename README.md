@@ -1,23 +1,35 @@
-# 🚀 Portofolio Pribadi - Safrust
+# 🌟 Portfolio Website - Safrust
 
-Website portofolio pribadi modern dan responsif yang dibangun dengan HTML, Tailwind CSS, dan JavaScript.
+[![Netlify Status](https://img.shields.io/badge/Netlify-Online-success?style=flat&logo=netlify)](https://safrust.netlify.app)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
-## ✨ Fitur
+> Modern, responsive personal portfolio website showcasing my projects and skills.
 
-- 🎨 Desain modern dengan gradient dan animasi
-- 📱 Fully responsive (mobile, tablet, desktop)
-- 🌙 Dark theme yang elegan
-- 🎭 Animasi smooth dan interaktif
-- 📧 Form kontak
-- 🔗 Integrasi social media
-- ⚡ Fast loading dengan CDN
+**🔗 Live Demo:** [https://safrust.netlify.app](https://safrust.netlify.app)
 
-## 🛠️ Teknologi
+---
 
-- **HTML5** - Struktur website
-- **Tailwind CSS** - Styling modern
-- **JavaScript** - Interaktivitas
-- **Font Awesome** - Icons
+## ✨ Features
+
+- 🎨 **Modern Design** - Clean gradient design with smooth animations
+- 📱 **Fully Responsive** - Works perfectly on all devices
+- 🌙 **Dark Theme** - Professional dark mode interface
+- ⚡ **Fast Performance** - Optimized with CDN delivery
+- 📧 **Contact Form** - Integrated with Netlify Forms
+- � **SEO Optimized** - Meta tags and sitemap included
+- 🚀 **Auto Deploy** - Continuous deployment from GitHub
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML5, Tailwind CSS, JavaScript
+- **Icons:** Font Awesome 6
+- **Hosting:** Netlify
+- **Version Control:** Git & GitHub
 
 ## 📂 Struktur Proyek
 
@@ -39,23 +51,40 @@ safrust/
    - Tambahkan proyek Anda
    - Sesuaikan link social media
 
-## 📝 Customization
+## � Quick Start
 
-### Mengganti Foto Profil
+```bash
+# Clone repository
+git clone https://github.com/Safrust/safrust-portofolio.git
+cd safrust-portofolio
 
-Ganti URL di bagian hero section:
-
-```html
-<img src="URL_FOTO_ANDA" alt="Profile" />
+# Open in browser
+# Simply open index.html or use Live Server
 ```
 
-### Menambah Proyek
+---
 
-Duplicate dan edit card proyek di section `#projects`
+## 🎨 Customization
 
-### Mengubah Warna
+### Update Profile
 
-Edit konfigurasi Tailwind di `<head>`:
+- **Photo:** Line ~109 in `index.html`
+- **Name & Title:** Line ~110-115
+- **Contact Info:** Line ~475-495
+- **Social Links:** Line ~120-135
+
+### Add Projects
+
+Duplicate project card (Line ~290-330) and modify:
+
+- Project image
+- Title & description
+- Tech stack tags
+- Demo & GitHub links
+
+### Change Colors
+
+Edit Tailwind config (Line ~18-28):
 
 ```javascript
 tailwind.config = {
@@ -70,39 +99,55 @@ tailwind.config = {
 };
 ```
 
-## 🌐 Deployment
+---
 
-Website ini dapat di-deploy ke:
+## 📧 Contact Form
 
-- **Netlify** (Recommended) - Gratis, mudah, auto-deploy dari GitHub
-- **Vercel** - Alternatif yang bagus
-- **GitHub Pages** - Gratis hosting dari GitHub
-- **Firebase Hosting** - Dari Google
+Contact form is powered by **Netlify Forms** - works automatically when deployed!
 
-## 📧 Contact Form Integration
+**Setup:**
 
-Untuk mengaktifkan form kontak, Anda bisa menggunakan:
+1. Form already configured ✅
+2. Deploy to Netlify ✅
+3. Go to Forms section in Netlify Dashboard
+4. Enable email notifications
 
-1. **Netlify Forms** (Termudah untuk Netlify):
+---
 
-   ```html
-   <form name="contact" method="POST" data-netlify="true"></form>
-   ```
+## 🤝 Contributing
 
-2. **Formspree** (Universal):
+Contributions are welcome! Feel free to:
 
-   ```html
-   <form action="https://formspree.io/f/YOUR_ID" method="POST"></form>
-   ```
+1. Fork this project
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
 
-3. **EmailJS** (Client-side):
-   - Daftar di EmailJS.com
-   - Tambahkan SDK
-   - Konfigurasi service
+---
+
+## 👨‍💻 Author
+
+**Safrust**
+
+- 🌐 Website: [safrust.netlify.app](https://safrust.netlify.app)
+- 🐙 GitHub: [@Safrust](https://github.com/Safrust)
+
+---
 
 ## 📄 License
 
-MIT License - Bebas digunakan untuk proyek pribadi dan komersial
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+
+**⭐ Star this repo if you find it helpful!**
+
+Made with ❤️ and ☕
+
+</div>
 
 ## 👨‍💻 Author
 
