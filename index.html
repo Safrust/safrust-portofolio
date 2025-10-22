@@ -3,8 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Portofolio pribadi - Safrust" />
+    <meta
+      name="description"
+      content="Portofolio pribadi - Safrust. Web Developer, Designer, dan Creative Thinker."
+    />
+    <meta
+      name="keywords"
+      content="portfolio, web developer, safrust, web design, front-end developer"
+    />
+    <meta name="author" content="Safrust" />
     <title>Portofolio Saya | Safrust</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://safrust-portfolio.netlify.app/" />
+    <meta property="og:title" content="Portofolio Saya | Safrust" />
+    <meta
+      property="og:description"
+      content="Web Developer, Designer, dan Creative Thinker"
+    />
+    <meta
+      property="og:image"
+      content="https://safrust-portfolio.netlify.app/favicon.svg"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://safrust-portfolio.netlify.app/"
+    />
+    <meta property="twitter:title" content="Portofolio Saya | Safrust" />
+    <meta
+      property="twitter:description"
+      content="Web Developer, Designer, dan Creative Thinker"
+    />
+    <meta
+      property="twitter:image"
+      content="https://safrust-portfolio.netlify.app/favicon.svg"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -498,10 +538,24 @@
           </div>
 
           <!-- Contact Form -->
-          <form id="contact-form" class="space-y-6">
+          <form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+            id="contact-form"
+            class="space-y-6"
+          >
+            <!-- Hidden fields for Netlify Forms -->
+            <input type="hidden" name="form-name" value="contact" />
+            <div class="hidden">
+              <input name="bot-field" />
+            </div>
+
             <div>
               <input
                 type="text"
+                name="name"
                 id="name"
                 placeholder="Nama Anda"
                 required
@@ -512,6 +566,7 @@
             <div>
               <input
                 type="email"
+                name="email"
                 id="email"
                 placeholder="Email Anda"
                 required
@@ -521,6 +576,7 @@
 
             <div>
               <textarea
+                name="message"
                 id="message"
                 rows="5"
                 placeholder="Pesan Anda"
